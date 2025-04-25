@@ -1,10 +1,11 @@
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import Header from "./Components/Header";
 
 /**
  * Challenge:
- * 
+ *
  * - Create an App component in a separate file.
  *   Import it here and render it
  * - Create a "components" folder and a Header component.
@@ -14,12 +15,13 @@ import './App.css'
  */
 
 function App() {
-
-  return (
-    <>
-        <h1>Content</h1>
-    </>
-  )
+    return (
+        <>
+            <div>
+                <Header />
+            </div>
+        </>
+    );
 }
 
-export default App
+export default App;
