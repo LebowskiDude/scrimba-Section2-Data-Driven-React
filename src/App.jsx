@@ -2,6 +2,7 @@
 //import viteLogo from '/vite.svg'
 import "./App.css";
 import Header from "./Components/Header";
+import Entry from "./Components/Entry";
 
 /**
  * Challenge:
@@ -17,9 +18,13 @@ import Header from "./Components/Header";
 function App() {
     return (
         <>
-            <div className="card mt-5 w-50 h-50 d-flex m-auto">
-                <Header />
-                <div className="card-body">Content...</div>
+            <div className="card mt-5 w-50 d-flex m-auto">
+                <div className="card-header text-bg-primary d-flex justify-content-center align-items-center">
+                    <Header />
+                </div>
+                <div className="card-body p-5">
+                    <Entry />
+                </div>
             </div>
         </>
     );
